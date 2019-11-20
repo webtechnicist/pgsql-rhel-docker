@@ -1,2 +1,4 @@
-# pgsql-rhel-docker
-Run postgresql 9.6 on RHEL 7.3 under docker container
+POSTGRESQL_USER=<yourId>
+POSTGRESQL_PASSWORD=<yourPwd>
+POSTGRESQL_DATABASE=<yourDbName>
+POSTGRESQL_ADMIN_PASSWORD=<postgres's Password>
