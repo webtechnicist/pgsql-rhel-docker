@@ -15,7 +15,7 @@ COPY run-service.sh /run-service.sh
 COPY run-first-time.sh /run-first-time.sh
 COPY sshd_config /etc/ssh/sshd_config
 
-EXPOSE 5432
+EXPOSE 5432 22
 
 ENTRYPOINT /run-service.sh ; /bin/bash
 
