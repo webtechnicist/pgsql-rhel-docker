@@ -1,6 +1,6 @@
 FROM sotax/rhel7.3
 
-MAINTAINER  Kiran Aher <kiran.aher@kanakasoftware.com>
+MAINTAINER  Kiran Aher <kiran.aher@webtechnicist.com>
 
 VOLUME [ "/var/lib/pgsql" ]
 
