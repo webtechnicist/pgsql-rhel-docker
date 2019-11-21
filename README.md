@@ -1,3 +1,7 @@
+# Please note that this project is created for testing and development requirement. consider security and other issues before running on the production servers.
+
+Our goal is to run multiple postgresql 9.6 instances on one VM with docker container.
+
 mkdir -p  /opt/db/dev-db-01
 
 chmod 777 /opt/db/dev-db-01
