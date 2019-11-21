@@ -20,7 +20,7 @@ docker run -it -p 10.145.182.101:5432:5432 -p 10.145.182.101:22:22 -p 10.145.182
 
 # On first run it will initialize PgSQL database at /opt/db/dev-db-01 (host) ie. /var/lib/pgsql in container location.
 
-# You can start and stop PgSQL and PgPool services with blow commands.
+# You can start and stop PgSQL and PgPool services with the below commands.
 
 pgsql-start
 
