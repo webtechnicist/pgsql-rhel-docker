@@ -23,11 +23,3 @@ COPY pgpool.conf /etc/pgpool-II-96/pgpool.conf
 EXPOSE 5432 9898 9999
 
 ENTRYPOINT /run-service.sh ; /bin/bash
-
-#To run the container
-
-#docker run -it -p 5432:5432 -v /opt/adp/pgsql-cont1:/var/lib/pgsql --restart=always  adp-pgsql:V1
-
-#docker run -it -p 10.145.182.102:5432:5432 -p 10.145.182.102:22:22 -v /opt/adp/pgsql-cont3:/var/lib/pgsql --restart=always  --name pgsql-cont3 adp-pgsql:V2 /bin/bash
-
-#docker run -it -p 10.145.182.101:5432:5432 -p 10.145.182.101:22:22 -p 10.145.182.101:9898:9898 -p 10.145.182.101:9999:9999 --hostname prod-rt-live-execdb-02 -v /opt/adp/prod-rt-live-execdb-02:/var/lib/pgsql --restart=always  --name prod-rt-live-execdb-02 adp-pgsql:V1 /bin/bash
